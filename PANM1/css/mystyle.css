@@ -1,0 +1,88 @@
+section.header-section { 
+       z-index:1;
+}
+section.header-section::before{
+       content: "";
+       position: fixed;
+       z-index: -1;
+       top: 0;
+       right: 0;
+       left: 0;
+       bottom:0;
+       background-image:url(/PANM1/fullthakur.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       width:100%;
+       height:100%;
+       opacity:0.6;
+}
+.shade{
+ max-height:80px;max-width:90px;margin-top:-15px;padding:7px;
+}
+.msg {
+  color : red;
+}
+div.student_data1{
+  margin-left: 150px;margin-top: 110px;min-height: 800px;
+}
+.myform{
+  position:relative;margin-top:70%;width:70%;height:auto;
+}
+.shadow:hover{
+	box-shadow: 0px 0px 2px rgba(0,50,100,.3);
+ }
+a:hover{
+  color: #fff;
+}
+section.link-shadowed a{
+font-weight:bold;font-size:22px;
+}
+section.link-shadowed a:hover{
+  text-shadow:1px 1px 3px blue;
+}
+div#main{ 
+            margin-left: 350px;
+            margin-top: -350px;
+            margin-bottom: 300px;
+ }
+
+.pade{
+	padding:1em;
+	/*display:inline-block !important;
+	vertical-align: middle !important;*/
+}
+.back{
+	background-color: rgb(91,192,222);
+}
+footer{
+  z-index: 1;
+}
+footer a {
+  color: #70726F;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+footer a.custom1 i:hover{
+color:#1da1f2;
+text-shadow: 0px 0px 5px #70726F;
+}
+footer a.custom2 i:hover{
+color:#007bb5;
+text-shadow: 0px 0px 5px #70726F;
+}
+footer a.custom3 i:hover{
+color:#db4437;
+text-shadow: 0px 0px 5px #70726F;
+}
+footer a.custom4 i:hover{
+color:#00aff0;
+text-shadow: 0px 0px 5px #70726F;
+}
+footer a.custom5 i:hover{
+color:#3b5998;
+text-shadow: 0px 0px 5px #70726F;
+}
